@@ -1,0 +1,21 @@
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+.fig{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	margin-left: 20%;
+}
+p{
+	text-align: center;
+}
+.mail{
+	margin-left: 90px;
+}

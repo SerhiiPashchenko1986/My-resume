@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact me</title>
+    <link rel="stylesheet" href="./Style/main.css" />
+  </head>
+  <body>
+    <table border="1" width="100%">
+      <!-- Header -->
+      <tr>
+        <td colspan="3">
+          <h1>My website- Contact me</h1>
+        </td>
+      </tr>
+      <tr height="500">
+        <!-- nav -->
+        <td width="200">
+          <h3>Navigation</h3>
+          <ul>
+            <li><a href="index.html">Main</a></li>
+            <li><a href="rezume.html">Resume</a></li>
+            <li><a href="contact.html">Contact me</a></li>
+          </ul>
+        </td>
+        <!-- main -->
+        <td>
+          <h2>Contact me</h2>
+          <h3>By e-mail</h3>
+          <div>
+            <a
+              class="mail"
+              target="_blank"
+              href="mailto:Pashchenko.serhii1986@gmail.com"
+              >To write a letter</a
+            >
+          </div>
+          <hr />
+          <!-- Форма для відправлення листа -->
+          <h3>Message</h3>
+          <p>
+            Leave information about yourself and the text of the message in the
+            form and I will contact you
+          </p>
+
+          <form>
+            <div>
+              <label for="name">Name*</label><br />
+              <input type="text" id="name" required />
+            </div>
+            <div>
+              <label for="email">Email*</label><br />
+              <input type="email" id="email" required />
+            </div>
+            <div>
+              <label for="phone_number">Phone number</label><br />
+              <input type="number" id="phone_number" required />
+            </div>
+            <div>
+              <label for="msg">Message*</label><br />
+              <textarea id="msg" cols="22" rows="5"></textarea><br />
+              <div>* - required fields</div>
+              <button>Send</button>
+            </div>
+          </form>
+        </td>
+        <!-- aside -->
+        <td width="200">
+          <p>Your ad can be here</p>
+        </td>
+      </tr>
+      <!-- Footer -->
+      <tr>
+        <td colspan="3">Serhii Pashchenko, 2024</td>
+      </tr>
+    </table>
+  </body>
+</html>
